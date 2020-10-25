@@ -6,7 +6,7 @@ img = Image.new('RGB', (503, 122), "black")
 # mode:RGB(3*8像素，真彩) size:元组（width, height）单位像素 color:通道颜色默认全黑
 x = 503
 y = 122
-f = open('S:\\Kali\\Misc\\g29.txt', 'r')
+f = open('S:\\Kali\\Misc\\g29.txt', 'r')    # 第一个存放路径名,实验文档g29.txt
 pix =[]     # 预存放文本内数值
 for i in range(61366):      # 循环文本行数
     a = f.readline()        # 读取每一行字符串并赋值给a ,注readline()会读取换行符
